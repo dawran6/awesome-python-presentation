@@ -18,188 +18,90 @@
         <div class="reveal">
             <div class="slides">
                 <section>
-                    <h1>Python is awesome!</h1>
+                    <h2>Agenda</h2>
+                    <ol>
+                        <li>Why Python?</li>
+                        <li>What to learn?</li>
+                        <li>Where to learn?</li>
+                    </ol>
                 </section>
 
-                <!--section>
-                    <h2>Opening</h2>
-                    <p class="fragment">Who has heard of Python?</p>
-                    <p class="fragment">Who writes Python code?</p>
-                    <p class="fragment">Who loves Python?</p>
-                </section-->
-
                 <section>
-                    <h2>Who are we (am I)?</h2>
+                    <h2>Who are we?</h2>
                     <ul>
                         <li>Chao-Wei Chen / Randy Daw-Ran Liou</li>
                         <li class="fragment">WIN System Software Engineer 3 years</li>
                         <li class="fragment">KT Python Study Group organizers 1 month</li>
                     </ul>
-                    <h2 class="fragment">Me</h2>
-                    <ul>
-                        <li class="fragment">Python Experience 1 year</li>
-                        <li class="fragment">Breakfast Cook</li>
-                        <li class="fragment">Coffee Enthusiast</li>
-                        <li class="fragment">Snowboard, tennis, workout</li>
-                    </ul>
                 </section>
 
                 <section>
-                   <h2>Share your ideas with Python!</h2>
-                </section>
-
-                <section>
-                    <h2>Qualities of Python</h2>
-                    <ol>
-                        <li>Ease of Learning</li>
-                        <li>Readability and Beauty</li>
-                        <!-- <li>Rapid Development Cycle</li> -->
-                        <li>Killer Apps</li>
-                    </ol>
-                </section>
-
-                <section>
-                    <!-- Key Point #1 -->
                     <section>
-                        <h2>Ease of Learning</h2>
+                        <h2>Why Python?</h2>
+                        <ol>
+                            <li class="fragment">Ease of Learning</li>
+                            <li class="fragment">Readability and Beauty</li>
+                            <li class="fragment">Rapid Development Cycle</li>
+                            <li class="fragment">Killer Apps <span class="fragment">for data science!</span></li>
+                        </ol>
                     </section>
 
                     <section>
                         <p>Hello World in different languages</p>
                         <p>Java</p>
-                        <pre><code class="hljs" data-noescape data-trim>public class Hello {
+                        <pre><code data-noescape data-trim>public class Hello {
     public static void main(String []args) {
         System.out.println("Hello World");
     }
 }</code></pre>
                         <p>C++</p>
-                        <pre><code class="hljs" data-noescape data-trim>#include &lt;iostream&gt;
+                        <pre><code data-noescape data-trim>#include &lt;iostream&gt;
 int main()
 {
     std::cout &lt;&lt; "Hello World";
 }</code></pre>
                         <p>Python</p>
-                        <pre class="fragment"><code class="hljs" data-trim data-noescape>print('Hello World')</code></pre>
+                        <pre class="fragment"><code data-trim data-noescape>print('Hello World')</code></pre>
                     </section>
 
-                    <section>
-                        <p>Whitespace (a <a href="https://en.wikipedia.org/wiki/Whitespace_(programming_language)">real language</a>)</p>
-                        <pre class="fragment"><code class="hljs" data-noescape data-trim><&lt;tab&gt;>
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> <&lt;tab&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;space&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;space&gt;> 
-<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> 
-...and so on</code></pre>
-                    </section>
-
-                    <section>
-                        <p>Reads like English</p>
-                    </section>
-
-                    <section>
-                        <pre><code>For i = 1 to 100
-    if i is divisible by 15 then
-        print "FizzBuzz"
-    else if i is divisible by 3 then
-        print "Fizz"
-    else if i is divisible by 5 then
-        print "Buzz"
-    else
-        print i</code></pre>
-                        <pre class="fragment"><code class="python">for i in range(1, 100):
-    if i % 15 == 0:
-        print('FizzBuzz')
-    elif i % 3 == 0:
-        print('Fizz')
-    elif i % 5 == 0:
-        print('Buzz')
-    else:
-        print(i)</code></pre>
-                        <p class="fragment">Executable pseudocode</p>
-                    </section>
-
-                    <section>
-                        <p>Isn't it good to let the code speak for itself?</p>
-                    </section>
-
-                </section><!--End Key Point #1-->
-
-                <section>
-                    <!-- Key Point #2 -->
-                    <section>
-                        <h2>Readability and Beauty</h2>
-                    </section>
-
-                    <section>
-                        <p>"Code is read much more often than it is written."</p>
-                    </section>
-
-                    <!-- <section>
-                        <pre><code># Ok
-result = []
-for i in range(10):
-s = i ** 2
-    result.append(s)
-print(sum(result))</code></pre>
-                        <pre class="fragment"><code># Better
-print(sum(i**2 for i in range(10)))</code></pre>
-                        <div class="fragment">
-                            <p>First way tells you what to do;</p>
-                            <p>second way tells you what you want.</p>
-                        </div>
-                    </section> -->
                     <section>
                         <p>Focus on what you want, not what to do.</p>
+                        <p class="fragment">Business logic &gt; administrative logic</p>
                     </section>
 
-                    <section>
-                        <p>Business logic &gt; administrative logic</p>
-                    </section>
+                </section>
 
-                </section><!--End Key Point #2-->
-
-                <!-- <section>
-                    <section>
-                        <h2>Rapid Development Cycle</h2>
-                    </section>
-
-                    <section>
-                        <p>Flexible, battery included, scripting language</p>
-                    </section>
-
-                </section> --><!--End Key Point #3-->
 
                 <section>
-                    <!-- Key Point #4 -->
                     <section>
-                        <h2>Killer Apps</h2>
+                        <h2>What to learn?</h2>
                     </section>
 
                     <section>
                         <ul>
-                            <li>Jupyter Notebook</li>
-                            <li class="fragment">Matplotlib</li>
-                            <li class="fragment">Panda</li>
-                            <li class="fragment">Tensorflow</li>
-                            <li class="fragment">NLTK</li>
-                            <li class="fragment">Scrapy</li>
+                            <li>Development Environment
+                                <ul>
+                                    <li>Notepad</li>
+                                    <li>PyCharm</li>
+                                    <li>Jupyter Notebook</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <ul>
+                            <li>Data Science Toolkits
+                                <ul>
+                                    <li class="fragment">Numpy - A fundamental package for scientific computing with Python</li>
+                                    <li class="fragment">Panda - A library providing high-performance, easy-to-use data structures and data analysis tools</li>
+                                    <li class="fragment">Matplotlib -  A Python 2D plotting library</li>
+                                    <li class="fragment">Seaborn - statistical data visualization</li>
+                                    <li class="fragment">Tensorflow - Computation using data flow graphs for scalable machine learning</li>
+                                    <li class="fragment">OpenCV - Open Source Computer Vision Library</li>
+                                    <li class="fragment">NLTK - A leading platform for building Python programs to work with human language data</li>
+                                </ul>
+                            </li>
                             <li class="fragment"><a href="https://github.com/vinta/awesome-python">Awesome Python</a></li>
                         </ul>
                     </section>
@@ -208,24 +110,35 @@ print(sum(i**2 for i in range(10)))</code></pre>
                         <p><a href="https://try.jupyter.org/">Jupyter Notebook Demo</a></p>
                     </section>
 
+                </section>
+                
+                <section>
                     <section>
-                        <p>Go to Darshan's class</p>
+                        <h2>Where to learn?</h2>
                     </section>
 
-                </section><!--End Key Point #4-->
-
-                <section>
-                    <h2>Share your ideas with Python!</h2>
+                    <section>
+                        <ul>
+                            <li>Darshan's workshops for Python <span class="fragment">already full</span></li>
+                            <li class="fragment">KT Python Meetup</li>
+                            <li class="fragment">Data Hackathon Sharepoint
+                                <ul>
+                                    <li>Training</li>
+                                    <li>Yoav Ram's Introduction to Python for Engineers</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
                 </section>
 
                 <section>
-                    <h2>Conclusion: Python is...</h2>
+                    <h2>Recap: Python is...</h2>
                     <ul>
                         <li class="fragment">Easy</li>
                         <li class="fragment">Very Readable and Beautiful</li>
-                        <li class="fragment">Suit for Rapid Development</li>
+                        <li class="fragment">Great for Rapid Development</li>
                         <li class="fragment">Rich in third party libraries</li>
-                        <li class="fragment">All about Sharing!</li>
+                        <li class="fragment">Great for data science!</li>
                     </ul>
                 </section>
 
@@ -233,6 +146,7 @@ print(sum(i**2 for i in range(10)))</code></pre>
                     <p>"The future depends on what you do today."</p>
                     <p> - Mahatma Gandhi</p>
                 </section>
+
             </div>
         </div>
 
