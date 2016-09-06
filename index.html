@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/white.css">
+        <!-- Code syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h1>Python</h1>
+                </section>
+
+                <!--section>
+                    <h2>Opening</h2>
+                    <p class="fragment">Who has heard of Python?</p>
+                    <p class="fragment">Who writes Python code?</p>
+                    <p class="fragment">Who loves Python?</p>
+                </section-->
+
+                <section>
+                    <h2>Who are we / am I?</h2>
+                    <ul>
+                        <li>Randy Daw-Ran Liou / Chao-Wei Chen</li>
+                        <li class="fragment">Software Engineer 2.5 years</li>
+                        <li class="fragment">Python Experience 1 year</li>
+                        <li class="fragment">Breakfast Cook</li>
+                        <li class="fragment">Coffee Enthusiast</li>
+                        <li class="fragment">Snowboard, tennis, workout</li>
+                    </ul>
+                </section>
+
+                <section>
+                   <h2>Python is Awesome</h2>
+                   <h3 class="fragment">And here's why</h3>
+                </section>
+
+                <section>
+                    <h2>Qualities of Python</h2>
+                    <ol>
+                        <li>Ease of Learning</li>
+                        <li>Readability and Beauty</li>
+                        <li>Rapid Development</li>
+                        <li>Killer Apps</li>
+                    </ol>
+                </section>
+
+                <section>
+                    <!-- <h2>Key Point #1</h2> -->
+                    <section>
+                        <h2>Ease of Learning</h2>
+                    </section>
+
+                    <section>
+                        <p>Hello World in different languages</p>
+                        <p>Java</p>
+                        <pre><code class="hljs" data-noescape data-trim>public class Hello {
+    public static void main(String []args) {
+        System.out.println("Hello World");
+    }
+}</code></pre>
+                        <p>C++</p>
+                        <pre><code class="hljs" data-noescape data-trim>#include &lt;iostream&gt;
+int main()
+{
+    std::cout &lt;&lt; "Hello World";
+}</code></pre>
+                        <p>Python</p>
+                        <pre class="fragment"><code class="hljs" data-trim data-noescape>print('Hello World')</code></pre>
+                    </section>
+
+                    <section>
+                        <p>Whitespace (a <a href="https://en.wikipedia.org/wiki/Whitespace_(programming_language)">real language</a>)</p>
+                        <pre class="fragment"><code class="hljs" data-noescape data-trim><&lt;tab&gt;>
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> <&lt;tab&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;space&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;space&gt;> 
+<&lt;tab&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;tab&gt;> <&lt;tab&gt;> <&lt;space&gt;> <&lt;space&gt;> 
+...and so on</code></pre>
+                    </section>
+
+                    <section>
+                        <p>Reads like English</p>
+                    </section>
+
+                    <section>
+                        <p>Executable pseudocode</p>
+                        <pre><code>For i = 1 to 100
+    if i is divisible by 15 then
+        print "FizzBuzz"
+    else if i is divisible by 3 then
+        print "Fizz"
+    else if i is divisible by 5 then
+        print "Buzz"
+    else
+        print i</code></pre>
+                        <pre><code>for i in range(1, 100):
+    if i % 15 == 0:
+        print('FizzBuzz')
+    elif i % 3 == 0:
+        print('Fizz')
+    elif i % 5 == 0:
+        print('Buzz')
+    else:
+        print(i)</code></pre>
+                    </section>
+
+                    <section>
+                    <p>Isn't it good to let the code speak for itself?</p>
+                    </section>
+
+                </section>
+
+                <section>
+                    <!-- <h2>Key Point #2</h2> -->
+                    <h2>Readability and Beauty</h2>
+                </section>
+
+                <section>
+                    <!-- <h2>Key Point #3</h2> -->
+                    <h2>Killer Apps</h2>
+                </section>
+
+                <section>
+                    <h2>Python is Awesome</h2>
+                </section>
+
+            </div>
+        </div>
+        <script src="js/reveal.js"></script>
+        <script>
+            Reveal.initialize();
+        </script>
+    </body>
+</html>
