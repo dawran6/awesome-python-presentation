@@ -18,7 +18,7 @@
         <div class="reveal">
             <div class="slides">
                 <section>
-                    <h1>Python</h1>
+                    <h1>Python is awesome!</h1>
                 </section>
 
                 <!--section>
@@ -29,10 +29,14 @@
                 </section-->
 
                 <section>
-                    <h2>Who are we / am I?</h2>
+                    <h2>Who are we (am I)?</h2>
                     <ul>
-                        <li>Randy Daw-Ran Liou / Chao-Wei Chen</li>
-                        <li class="fragment">Software Engineer 2.5 years</li>
+                        <li>Chao-Wei Chen / Randy Daw-Ran Liou</li>
+                        <li class="fragment">WIN System Software Engineer 3 years</li>
+                        <li class="fragment">KT Python Study Group organizers 1 month</li>
+                    </ul>
+                    <h2 class="fragment">Me</h2>
+                    <ul>
                         <li class="fragment">Python Experience 1 year</li>
                         <li class="fragment">Breakfast Cook</li>
                         <li class="fragment">Coffee Enthusiast</li>
@@ -110,7 +114,6 @@ int main()
                     </section>
 
                     <section>
-                        <p>Executable pseudocode</p>
                         <pre><code>For i = 1 to 100
     if i is divisible by 15 then
         print "FizzBuzz"
@@ -120,7 +123,7 @@ int main()
         print "Buzz"
     else
         print i</code></pre>
-                        <pre><code>for i in range(1, 100):
+                        <pre class="fragment"><code class="python">for i in range(1, 100):
     if i % 15 == 0:
         print('FizzBuzz')
     elif i % 3 == 0:
@@ -129,6 +132,7 @@ int main()
         print('Buzz')
     else:
         print(i)</code></pre>
+                        <p class="fragment">Executable pseudocode</p>
                     </section>
 
                     <section>
@@ -219,7 +223,7 @@ print(sum(i**2 for i in range(10)))</code></pre>
                     <ul>
                         <li class="fragment">Easy</li>
                         <li class="fragment">Very Readable and Beautiful</li>
-                        <!-- <li class="fragment">Suit for Rapid Development</li> -->
+                        <li class="fragment">Suit for Rapid Development</li>
                         <li class="fragment">Rich in third party libraries</li>
                         <li class="fragment">All about Sharing!</li>
                     </ul>
@@ -231,9 +235,23 @@ print(sum(i**2 for i in range(10)))</code></pre>
                 </section>
             </div>
         </div>
+
+        <script src="lib/js/head.min.js"></script>
         <script src="js/reveal.js"></script>
+
         <script>
-            Reveal.initialize();
+            // More info https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                history: true,
+
+                // More info https://github.com/hakimel/reveal.js#dependencies
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                ]
+            });
         </script>
     </body>
 </html>
